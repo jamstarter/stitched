@@ -5,7 +5,8 @@ body{
 	background-size:350px;
 }
 .page{
-	background:rgba(255,255,255,.9);
+	//background:rgba(255,255,255,.9);
+	background: url('images/crump3.jpg');
 	padding:30px;
 	padding-top:10px;
 	box-shadow:0px 0px 80px #000;
@@ -275,10 +276,10 @@ h1.stitch{
 }
 
 .inner-stitch,.navbar-inner{
-	border: 1px dashed rgba(15, 18, 12, 1);
+	border: 1px dashed rgba(171, 128, 112, 0.7);
 color: rgba(0,0,0, 0.73);
 font-size: 1.3em;
-outline: 1px dashed rgba(171, 128, 112, 0.7);
+//outline: 1px dashed rgba(171, 128, 112, 0.7);
 
 //line-height: 50px;
 
