@@ -1,0 +1,318 @@
+@import url(http://fonts.googleapis.com/css?family=Alef);
+body{
+	background:  url('images/leather.jpg');
+	background-attachment:fixed;
+	background-size:350px;
+}
+.page{
+	background:rgba(255,255,255,.9);
+	padding:30px;
+	padding-top:10px;
+	box-shadow:0px 0px 80px #000;
+}
+
+
+/**
+* Inputs
+*/
+.form-control.error{
+	color: red;
+	border-color:red;
+}
+.form-control.success{
+	color: green;
+	border-color:green;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	//color: #bbb;
+	border-color:#bbb;
+	background:#e2e2e2;
+	opacity:.5;
+}
+.checkbox.checked .second-icon, .radio.checked .second-icon {
+opacity: 1;
+filter: alpha(opacity=100);
+color: #1abc9c;
+-webkit-transition: color 0.25s linear;
+transition: color 0.25s linear;
+}
+.checkbox .icons .first-icon, .radio .icons .first-icon, .checkbox .icons .second-icon, .radio .icons .second-icon {
+display: inline-table;
+position: absolute;
+left: 0;
+top: 0;
+background-color: #ffffff;
+margin: 0;
+opacity: 1;
+filter: alpha(opacity=100);
+}
+/**
+* Buttons
+*/
+.btn{
+	width:100%;
+	color:#fff;
+	font-family: Helvetica Neue Ultra Light, sans-serif;
+	font-size:1.2em;
+	background: #876333;
+	border:0;
+}
+.btn:hover{
+	color:#fff;
+}
+
+.panel{
+	border: 0px solid #e2e2e2;
+	box-shadow:7px 7px 28px #6a6a6a;
+}
+
+.btn.btn-primary,.panel-primary .panel-heading{
+	background: #604e36;
+}
+.btn.btn-warning,.panel-warning .panel-heading{
+	background: #f5ca37;
+	color:#94750d !important;
+}
+.btn.btn-danger,.panel-danger .panel-heading{
+	background: #d31717;
+}
+.btn.btn-success,.panel-success .panel-heading{
+	background: #5e9f0a;
+}
+.btn.btn-inverse,.panel-inverse .panel-heading{
+	background: #ff9f07;
+}
+.btn.btn-info,.panel-info .panel-heading{
+	background: #749292;
+}
+.btn:disabled{
+	background:#000;
+	color:#bbb;
+}
+.panel .panel-heading{
+	color:#fff;
+}
+
+/**
+*	Rows
+*/
+.row{
+	padding:5px;
+}
+
+/**
+* Typography
+*/
+h1,h2,h3,h4,h5,h6,.page-title,.btn,.nav,input,.panel-title,.alert{
+	font-family: 'Alef', sans-serif;
+}
+
+
+
+/**
+* Progress Bars
+*/
+.progress-bar{
+	background: #604e36;
+}
+.progress-bar-success{
+	background: #5e9f0a;
+}
+.progress-bar-info{
+	background: #749292;
+}
+.progress-bar-warning{
+	background: #f5ca37;
+}
+.progress-bar-danger{
+	background: #d31717;
+}
+
+/**
+* NavBar
+*/
+.navbar-default{
+	background:#604e36;
+	border-radius:0px;
+	border:0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:#bbb;
+}
+
+.navbar-default .navbar-nav>li.active a,.navbar-default .navbar-nav>li.active a, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+	background:rgba(0,0,0,.5);
+	color:#fff;
+}
+.dropdown-menu,.dropdown-menu li a,.dropdown-menu li a{
+	background:rgba(0,0,0,.5) ;
+	color:#fff !important;
+}
+.dropdown-menu li a:hover{
+	background:#000;
+}
+.navbar-default .navbar-nav>li.active a:hover{
+	background:rgba(0,0,0,.5);
+	color:#bbb;
+}
+.dropdown{
+	background:none;
+}
+
+/**
+* Alerts
+*/
+.alert{
+	box-shadow:4px 4px 10px #6a6a6a;
+}
+.alert-success{
+	background: #5e9f0a;
+	color:#fff;
+	border-color: #5e9f0a;
+}
+.alert-info{
+	background: #749292;
+	color:#fff;
+	border-color: #749292;
+}
+.alert-warning{
+	background: #f5ca37;
+	color:#94750d;
+	border-color: #f5ca37;
+}
+.alert-danger{
+	background: #d31717;
+	color:#fff;
+	border-color: #d31717;
+}
+
+img{
+	border-radius:10px;
+	border:7px solid rgba(255,255,255,.2);
+	box-shadow:7px 7px 28px #4a4a4a;
+	
+}
+img.thumbnail{
+	display:inline-block !important;
+	margin:5px;
+}
+img.thumbnail-xsmall{
+	height:70px;
+}
+img.thumbnail-small{
+	height:90px;
+}
+img.thumbnail-medium{
+	height:110px;
+}
+img.thumbnail-large{
+	height:140px;
+}
+img.thumbnail-xlarge{
+	height:170px;
+}
+img.thumbnail-xxlarge{
+	height:220px;
+}
+
+hr,.page-header{
+    border:0;
+    border-bottom:3px dashed #bbb;
+}
+
+h1.stitch,.navbar{
+	background: url('images/leather.jpg');
+	background-size:200px;
+	color:#fff;
+	padding:10px;
+	
+	border-radius:5px;
+	box-shadow:7px 7px 28px #4a4a4a;
+}
+
+h1.stitch{
+//max-width:380px;
+}
+
+.inner-stitch,.navbar-inner{
+	border: 1px dashed rgba(15, 18, 12, 1);
+color: rgba(0,0,0, 0.73);
+font-size: 1.3em;
+outline: 1px dashed rgba(171, 128, 112, 0.7);
+
+//line-height: 50px;
+
+text-align: center;
+text-shadow: 0 1px 3px rgba(171, 128, 112, 0.5) , 0 -2px 4px rgba(5, 8, 2, 0.5);
+
+}
+
+.inner-stitch small,.navbar-inner small{
+	position:relative;
+	color: rgba(0,0,0, 0.73);
+	font-weight:bold;
+	font-family:Helvetica;
+	top:-5px;
+}
+
+@media (max-width:800px){
+	img{
+		max-width:100%;
+	}
+}
+
+/*
+ * Callouts
+ *
+ * Not quite alerts, but custom and helpful notes for folks reading the docs.
+ * Requires a base and modifier class.
+ */
+
+/* Common styles for all types */
+blockquote, .callout {
+  margin: 20px 0;
+  padding: 20px 30px 20px 15px;
+  border-left: 5px solid #6a6a6a;
+  background: rgba(0,0,0,.2);
+
+color:#fff;
+}
+.callout h4 {
+  margin-top: 0;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout code,
+.callout .highlight {
+  background-color: #fff;
+}
+
+/* Variations */
+.callout-danger {
+  background-color: rgba(211,23,23,.5);
+  border-color: #d31717;
+  
+}
+.callout-warning {
+  background-color: rgba(245,202,55,.7);
+  border-color: #efc020;
+  color:#94750d;
+}
+.callout-info {
+  background-color: rgba(116,146,146,.5);
+  border-color: #749292;
+}
+
+.callout input[type=button]{
+	margin-top:-12px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border:none;
+}
